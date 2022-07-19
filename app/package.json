@@ -1,0 +1,21 @@
+{
+  "dependencies": {
+    "ejs": "^3.1.8",
+    "express": "^4.18.1",
+    "nodemon": "^2.0.19"
+  },
+  "name": "ap",
+  "version": "1.0.0",
+  "main": "app.js",
+  "bin": {
+    "ap": "bin/www.js"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "nodemon ./bin/www",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "ap",
+  "license": "MIT",
+  "description": ""
+}
